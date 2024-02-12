@@ -21,7 +21,7 @@ services:
     volumes:
       - ./backend:/backend
     environment:
-      REDIS_URL: "redis://opengpts-redis:6379"
+      REDIS_URL: "redis://default:1KCGgFgpIGOHh5MCKljANDEj6HPFP3il@viaduct.proxy.rlwy.net:41091"
     command:
       - --reload
   frontend:
