@@ -2,3 +2,6 @@
 .env.gcp.yaml
 redis-volume/
 backend/ui
+node_modules/
+dist
+```
